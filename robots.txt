@@ -1,0 +1,4 @@
+User-agent: *
+
+Sitemap: https://webcards.corax.org/sitemap.xml
+Sitemap: https://webcards.corax.org/sitemap.txt
