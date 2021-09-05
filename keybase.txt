@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gregraven
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://webcards.corax.org
+  * I am gregraven (https://keybase.io/gregraven) on keybase.
+  * I have a public key ASCMtw7u84yNFK7icX8jZ3Ax6JlXGfcqS-AnuWCZGG9utgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205b422cdb8fca4b3fafc11d41efdc3985d7b2d075042353bc175fd5ad5e27eb4d0a",
+      "host": "keybase.io",
+      "kid": "01208cb70eeef38c8d14aee2717f23677031e8995719f72a4be027b96099186f6eb60a",
+      "uid": "32fcbe4183d0d0c0afa736d2c9cc3e19",
+      "username": "gregraven"
+    },
+    "merkle_root": {
+      "ctime": 1630868547,
+      "hash": "4174e61647e54f34ae71ddd5470d6ca28575642f0fc398375b67862481e602db4f052e4f5610836514edbfd6b704dd2de79a931acebbf23f9a997bd69633e082",
+      "hash_meta": "afeb0258f3d4af684b9eb6d95457d7846256b7547e6feb9c618db6145a017dd6",
+      "seqno": 20703248
+    },
+    "service": {
+      "entropy": "Cy0+dMZy7nvGxr0ogJn7OQDC",
+      "hostname": "webcards.corax.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1630868637,
+  "expire_in": 504576000,
+  "prev": "a3486a5afa081d9b92023834da2488216766bb2302eee507ef19804824548b76",
+  "seqno": 277,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjLcO7vOMjRSu4nF/I2dwMeiZVxn3KkvgJ7lgmRhvbrYKp3BheWxvYWTETJcCzQEVxCCjSGpa+ggdm5ICODTaJIghZ2a7IwLu5QfvGYBIJFSLdsQgibeJsIkxPrbzv3xHYEwU1XZ7QVgmbp9LiZtBWvcEWOECAcKjc2lnxEAE3agKMoHqap+b9vX+2qOtpYdRJ+Wc+wsP5MpO0nZDHkss3xjaDw3hcwzvjhmwzubU4SYumH1pVjzeeZAD5dwPqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgZOCjjGkDEju5N8o7M8xacehLjxXPch/82UefimM0Am6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gregraven
+
+==================================================================
