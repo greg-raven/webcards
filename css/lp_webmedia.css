@@ -1,113 +1,98 @@
-a img {	border-style: none; margin: 0 3px; }
+a img {
+  border-style: none;
+  margin: 0 3px;
+}
 
-.pageBody, #pBody
-	{
-	margin-right: auto;
-	margin-left: auto;
-	width: 760px;
-	}
+.pageBody, #pBody {
+  margin-right: auto;
+  margin-left: auto;
+  width: 760px;
+}
 
-.reportBody, #rBody
-	{
-	margin-top: 0px;
-	padding: 0px;
-	padding-bottom: 2px;
-	}
+.reportBody, #rBody {
+  margin-top: 0px;
+  padding: 0px;
+  padding-bottom: 2px;
+}
 
-.wmTOC
-	{
-	font-size: 1.1em;
-	width: 100%;
-	padding-top: 5px;
-	text-align: center;
-	}
-	
-.wmTOCEntry
-	{
-	display: list-item;
-	list-style-position: inside;
-	width: 100%;
-	margin-bottom: 5px;
-	}
+.wmTOC {
+  font-size: 1.1em;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+}
 
-.wmItemRecord
-	{
-	opacity: 1;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	}
+.wmTOCEntry {
+  display: list-item;
+  list-style-position: inside;
+  width: 100%;
+  margin-bottom: 5px;
+}
 
-.wmItemMedia
-	{
-	margin-top: 10px;
-	}
+.wmItemRecord {
+  opacity: 1;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
 
-.wmItemTitle
-	{
-	margin-right: 0px;
-	margin-left: 0px;
-	text-align: center;
-	padding-top: 2pt;
-	opacity: 1;
-	}
+.wmItemMedia {
+  margin-top: 10px;
+}
 
-.wmPicture img
-	{
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-	max-width: 98%;
-	}
+.wmItemTitle {
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+  padding-top: 2pt;
+  opacity: 1;
+}
 
-.wmTop
-	{
-	text-align: left;
-	}
-	
-.wmRelated
-	{
-	text-align: center;
-	}
-	
-.wmRelatedTitle
-	{
-	display: block;
-	font-weight: bold;
-	}
+.wmPicture img {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  max-width: 98%;
+}
 
-.wmRelatedPages
-	{
-	display: block;
-	}
-	
-.wmRelatedRecord
-	{
-	width: 100%;
-	margin: auto;
-	}
+.wmTop {
+  text-align: left;
+}
 
-video
-	{
-	max-width: 98%;
-	height: auto;
-	}
+.wmRelated {
+  text-align: center;
+}
 
-@media all and (min-width: 415px)
-	{
-	.wmPicture img
-		{
-		border: 1px solid;
-		max-width: 95%;
-		}
-	
-	.wmItemRecord
-		{
-		opacity: 1;
-		}
-	
-	video
-		{
-		max-width: 95%;
-		}
-	}
+.wmRelatedTitle {
+  display: block;
+  font-weight: bold;
+}
+
+.wmRelatedPages {
+  display: block;
+}
+
+.wmRelatedRecord {
+  width: 100%;
+  margin: auto;
+}
+
+video {
+  max-width: 98%;
+  height: auto;
+}
+
+@media all and (min-width: 415px) {
+  .wmPicture img {
+    border: 1px solid;
+    max-width: 95%;
+  }
+
+  .wmItemRecord {
+    opacity: 1;
+  }
+
+  video {
+    max-width: 95%;
+  }
+}
 

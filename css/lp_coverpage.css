@@ -1,145 +1,121 @@
-.pageBody, #pBody
-	{
-	margin-right: auto;
-	margin-bottom: 50px;
-	margin-left: auto;
-	width: 760px;
-	}
-	
-.tocAuthor
-	{
-	font-size: 1.1em;
-	text-align: center;
-	margin-bottom: 4px;
-	margin-top: 8px;
-	}
+.pageBody, #pBody {
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  width: 760px;
+}
 
-.tocImage
-	{
-	padding: 6px;
-	text-align: center
-	}
-	
-.tocImage img
-	{
-	width: 54.5%;
-	}
+.tocAuthor {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
 
-.tocLinksTitle, .tocIntroTitle, .tocContactTitle
-	{
-	text-align: center;
-	font-size: 1.6em;
-	font-weight: bold;
-	margin-top: 2px;
-	margin-bottom: 0px;
-	}
+.tocImage {
+  padding: 6px;
+  text-align: center
+}
 
-.tocLinks, .tocIntro, .tocSur, .tocContact
-	{
-	padding: 2px;
-	}
+.tocImage img {
+  width: 54.5%;
+}
 
-.tocLinks div
-	{
-	display: table;
-	}
+.tocLinksTitle, .tocIntroTitle, .tocContactTitle {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
 
-.surRecord
-	{
-	margin: .2em;
-	padding-top: .2em;
-	border-top: dotted;
-	border-width: 1px;
-	font-size: 1.15em;
-	}
-	
-div.sur > div:first-child
-	{
-	border-top: none;
-	padding-top: 0em;
-	}
+.tocLinks, .tocIntro, .tocSur, .tocContact {
+  padding: 2px;
+}
 
-.surLetter
-	{
-	float: left;
-	width: 1em;
-	font-weight: bold;
-	text-align: center;
-	}
+.tocLinks div {
+  display: table;
+}
 
-.surName
-	{
-	display: block;
-	margin-left: 1.5em;
-	}
+.surRecord {
+  margin: .2em;
+  padding-top: .2em;
+  border-top: dotted;
+  border-width: 1px;
+  font-size: 1.15em;
+}
 
-.tocLinkStart
-	{
-	padding-bottom: 2px;
-	}
+div.sur > div:first-child {
+  border-top: none;
+  padding-top: 0em;
+}
 
-.tocContactRecord
-	{
-	margin-bottom: 5px;
-	}
+.surLetter {
+  float: left;
+  width: 1em;
+  font-weight: bold;
+  text-align: center;
+}
 
-.tocContactIcon img
-	{
-	width: 20px;
-	height: 20px;
-	}
+.surName {
+  display: block;
+  margin-left: 1.5em;
+}
 
-.tocContactIcon
-	{
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
-	}
+.tocLinkStart {
+  padding-bottom: 2px;
+}
 
-.tocContactLink
-	{
-	display: inline-block;
-	vertical-align: middle;
-	text-align: left;
-	padding-left: 4px;
-	}
+.tocContactRecord {
+  margin-bottom: 5px;
+}
+
+.tocContactIcon img {
+  width: 20px;
+  height: 20px;
+}
+
+.tocContactIcon {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tocContactLink {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 4px;
+}
 
 /* add some left and right margins when there is more horizontal space */
-@media all and (min-width: 415px)
-	{
-	.tocLinkStart
-		{
-		padding-bottom: 4px;
-		}
+@media all and (min-width: 415px) {
+  .tocLinkStart {
+    padding-bottom: 4px;
+  }
 
-	.tocContactIcon img
-		{
-		width: auto;
-		height: auto;
-		}
+  .tocContactIcon img {
+    width: auto;
+    height: auto;
+  }
 
-	.tocContactIcon
-		{
-		min-width: 40px;
-		}
+  .tocContactIcon {
+    min-width: 40px;
+  }
 
-	.tocLinks, .tocIntro, .sur, .tocContact
-		{
-		padding: 8px;
-		}
-	}
+  .tocLinks, .tocIntro, .sur, .tocContact {
+    padding: 8px;
+  }
+}
 
-@media all and (min-width: 769px)
-	{
-	.tocAuthor
-		{
-		margin-bottom: 5px;
-		margin-top: 0px;
-		}
-	}
+@media all and (min-width: 769px) {
+  .tocAuthor {
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+}
 
-.footer
-	{
-	padding: .4em;
-	text-align: center;
-	}
+.footer {
+  padding: .4em;
+  text-align: center;
+}
