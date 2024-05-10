@@ -1,6 +1,6 @@
 # redirect from subdomain to custom domain
 
-https://greg-raven.GitHub.io/webcards/* https://webcards.corax.org/:splat 301!
+https://blickensderfer.netlify.app/* https://webcards.corax.org/:splat 301!
 
 # redirect site icons
 
