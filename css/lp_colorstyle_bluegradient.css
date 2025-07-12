@@ -136,7 +136,7 @@ table#results td.u
 	{
 	color: #888;
 	}
-
+	
 .wcFacts
 	{
 	color: #555;
@@ -147,7 +147,7 @@ table#results td.u
 	{
 	background-color: rgba(224,239,254,0.3);
 	}
-
+	
 .wcWife, .wcFHusband, .wcFChild, .wcFChildBold,
 .wcWFactsWrapper .wcFactPicture img
 	{
@@ -199,7 +199,7 @@ table#results td.u
 	{
 	color: #2679e5;
 	}
-
+	
 /* pedigree chart colors */
 .box
 	{
@@ -211,14 +211,14 @@ table#results td.u
 	{
 	border-color: gray;
 	}
-
+	
 .showSC
 	{
 	color: black;
 	background-color: white;
 	border-color: #888;
 	}
-
+	
 .scView
 	{
 	color: #ababab;

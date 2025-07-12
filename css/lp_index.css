@@ -1,133 +1,168 @@
-.pageBody,
-#pBody {
-    margin-right: auto;
-    margin-left: auto;
-    width: 760px;
-}
+.pageBody, #pBody
+	{
+	margin-right: auto;
+	margin-left: auto;
+	width: 760px;
+	}
 
-.reportBody,
-#rBody {
-    margin-top: 0px;
-    padding-bottom: 2px;
-    border-top: 1px;
-    border-bottom: 1px;
-}
+.reportBody, #rBody
+	{
+	margin-top: 0px;
+	padding-bottom: 2px;
 
-hr {
-    margin-right: 10px;
-    margin-left: 10px;
-}
+	border-top: 1px;
+	border-bottom: 1px;
+	}
 
-.idxBar {
-    text-align: center;
-    line-height: 40px;
-    margin-left: 2px;
-    margin-right: 2px;
-}
+hr
+	{
+	margin-right: 10px;
+	margin-left: 10px;
+	}
 
-.idxBody {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+.idxBar
+	{
+	text-align: center;
+	line-height: 40px;
+	margin-left: 2px;
+	margin-right: 2px;
+	}
 
-.idxLetter,
-.idxSur {
-    font-weight: bold;
-}
-.sur {
-    padding: 2px;
-}
+.idxBody
+	{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
 
-.surRecord {
-    margin: 0.2em;
-    padding-top: 0.2em;
-}
+.idxLetter, .idxSur
+	{
+	font-weight: bold;
+	}	
 
-div.sur > div:first-child {
-    border-top: none;
-    padding-top: 0em;
-}
+.sur
+	{
+	padding: 2px;
+	}
 
-.surLetter {
-    float: left;
-    width: 1em;
-    font-size: 1.2em;
-    text-align: center;
-}
+.surRecord
+	{
+	margin: .2em;
+	padding-top: .2em;
+	}
+	
+div.sur > div:first-child
+	{
+	border-top: none;
+	padding-top: 0em;
+	}
 
-.surName {
-    display: block;
-    margin-left: 1.5em;
-    padding-top: 0.15em;
-}
+.surLetter
+	{
+	float: left;
+	width: 1em;
+	font-size: 1.2em;
+	text-align: center;
+	}
 
-.idxLetter {
-    letter-spacing: 5px;
-}
+.surName
+	{
+	display: block;
+	margin-left: 1.5em;
+	padding-top: .15em;
+	}
 
-.idxSur {
-    font-weight: bold;
-    padding: 2pt;
-    margin: 0px;
-    margin-top: 4px;
-    margin-bottom: 1px;
-}
+.idxLetter
+	{
+	letter-spacing: 5px;
+	}	
 
-.idxName {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-}
+.idxSur
+	{
+	font-weight: bold;
+	padding: 2pt;
+	margin: 0px;
+	margin-top: 4px;
+	margin-bottom: 1px;
+	}
 
-.idxDate {
-    letter-spacing: -1px;
-}
+.idxName
+	{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	}
 
-.rrNav {
-    text-align: center;
-    font-weight: bold;
-    padding: 0.4em;
-}
+.idxDate
+	{
+	letter-spacing: -1px;
+	}
 
-.idxEventLine {
-    padding-bottom: 2px;
-}
-.idxEventDate {
-    font-weight: bold;
-}
+.rrNav
+	{
+	text-align: center;
+	font-weight: bold;
+	padding: 2px 0px 2px 0px;
+	padding: .4em;
+	}
 
-.idxEventName {
-    display: inline-block;
-    vertical-align: top;
-}
+.idxEventLine
+	{
+	padding-bottom: 2px;
+	}
 
-.idxIndent {
-    margin-left: 12em;
-}
+.idxEventType
+	{
+	}
 
-@media all and (min-width: 415px) {
-    .sur {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+.idxEventDate
+	{
+	font-weight: bold;
+	}
 
-    .idxBar {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.idxEventPlace
+	{
+	}
 
-    .idxBody {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
+.idxEventName
+	{
+	display: inline-block;
+	vertical-align: top;
+	}
+	
+.idxIndent
+	{
+	margin-left: 12em;
+	}
 
-    .idxSur {
-        padding-top: 4px;
-        margin-top: 10px;
-    }
+@media all and (min-width: 415px)
+	{
+	.sur
+		{
+		padding-left: 18px;
+		padding-right: 18px;
+		}
 
-    .idxName {
-        padding: 0.1em 0.1em 0.1em 2em;
-    }
-}
+	.idxBar
+		{
+		margin-left: 50px;
+		margin-right: 50px;
+		}
+
+	.idxBody
+		{
+		margin-top: 12px;
+		margin-bottom: 12px;
+		}
+	
+	.idxSur
+		{
+		padding-top: 4px;
+		margin-top: 10px;
+		}
+
+	.idxName
+		{
+		padding: .1em .1em .1em 2em;
+		}
+	}
